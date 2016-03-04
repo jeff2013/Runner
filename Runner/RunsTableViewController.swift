@@ -68,6 +68,31 @@ class RunsTableViewController: UIViewController, UITableViewDelegate, UITableVie
         return cell
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        myTableView.deselectRowAtIndexPath(indexPath, animated: true)
+//        print("CLICKED")
+//        let run = runs[indexPath.row]
+//        run.setValue("RUN BRUH RUN", forKey: "runName")
+//        do{
+//            try run.managedObjectContext?.save()
+//        }catch{
+//            let saveError = error as NSError
+//            print(saveError)
+//        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "runSegue"{
+            if let destination = segue.destinationViewController as? RunViewController{
+                if let runIndex = myTableView.indexPathForSelectedRow?.row{
+                    destination.run = runs[runIndex]
+                }
+            }
+        }
+        print(myTableView.indexPathForSelectedRow?.row)
+        
+    }
+    
     func roundToPlaces(value:Double, places:Double)->Double{
         let divisor = pow(10.0, Double(places))
         return round(value*divisor)/divisor

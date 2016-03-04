@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F14B0821C8906C60026933D /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14B0811C8906C50026933D /* CircleProgressView.swift */; };
 		5F4370B31C7033F8009B41F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4370B21C7033F8009B41F8 /* CoreLocation.framework */; };
 		5F4370EF1C71AFEA009B41F8 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4370EE1C71AFEA009B41F8 /* Trip.swift */; };
 		5F43716D1C72F8F6009B41F8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7B906F1C700B7C000E85B7 /* MapKit.framework */; };
@@ -25,6 +26,9 @@
 		5F7B90621C6FF249000E85B7 /* RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B90611C6FF249000E85B7 /* RunnerUITests.swift */; };
 		5FA9B2341C7D8356008EDDCF /* ORun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA9B2331C7D8356008EDDCF /* ORun.swift */; };
 		5FA9B2361C7E3545008EDDCF /* RunMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA9B2351C7E3544008EDDCF /* RunMarker.swift */; };
+		5FF472121C890B66007C098B /* CompeteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF472111C890B66007C098B /* CompeteViewController.swift */; };
+		5FF472141C8938C2007C098B /* CircleProgressInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF472131C8938C2007C098B /* CircleProgressInner.swift */; };
+		5FFDE87C1C8117A20033BF75 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFDE87B1C8117A20033BF75 /* RunViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F14B0811C8906C50026933D /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		5F4370B21C7033F8009B41F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5F4370EE1C71AFEA009B41F8 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		5F43716E1C72FFF8009B41F8 /* PostRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRunViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +74,9 @@
 		5F7B906F1C700B7C000E85B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5FA9B2331C7D8356008EDDCF /* ORun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ORun.swift; path = ../ORun.swift; sourceTree = "<group>"; };
 		5FA9B2351C7E3544008EDDCF /* RunMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RunMarker.swift; path = ../RunMarker.swift; sourceTree = "<group>"; };
+		5FF472111C890B66007C098B /* CompeteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompeteViewController.swift; sourceTree = "<group>"; };
+		5FF472131C8938C2007C098B /* CircleProgressInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressInner.swift; sourceTree = "<group>"; };
+		5FFDE87B1C8117A20033BF75 /* RunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +138,10 @@
 				5F4371B01C755920009B41F8 /* Run.swift */,
 				5F7B90431C6FF248000E85B7 /* SecondViewController.swift */,
 				5F7B90451C6FF248000E85B7 /* Main.storyboard */,
+				5F14B0811C8906C50026933D /* CircleProgressView.swift */,
+				5FF472131C8938C2007C098B /* CircleProgressInner.swift */,
+				5FF472111C890B66007C098B /* CompeteViewController.swift */,
+				5FFDE87B1C8117A20033BF75 /* RunViewController.swift */,
 				5F4371B41C794BB6009B41F8 /* RunsTableViewController.swift */,
 				5F43716E1C72FFF8009B41F8 /* PostRunViewController.swift */,
 				5F4371B21C794A50009B41F8 /* RunsTableViewCell.swift */,
@@ -295,13 +307,17 @@
 				5F4371721C753BBA009B41F8 /* Runs.xcdatamodeld in Sources */,
 				5F7B90441C6FF248000E85B7 /* SecondViewController.swift in Sources */,
 				5FA9B2361C7E3545008EDDCF /* RunMarker.swift in Sources */,
+				5F14B0821C8906C60026933D /* CircleProgressView.swift in Sources */,
 				5F7B90401C6FF248000E85B7 /* AppDelegate.swift in Sources */,
 				5F7B90421C6FF248000E85B7 /* FirstViewController.swift in Sources */,
 				5F4371B31C794A50009B41F8 /* RunsTableViewCell.swift in Sources */,
 				5F4371B11C755920009B41F8 /* Run.swift in Sources */,
 				5F43716F1C72FFF8009B41F8 /* PostRunViewController.swift in Sources */,
 				5F4371B51C794BB6009B41F8 /* RunsTableViewController.swift in Sources */,
+				5FFDE87C1C8117A20033BF75 /* RunViewController.swift in Sources */,
+				5FF472121C890B66007C098B /* CompeteViewController.swift in Sources */,
 				5FA9B2341C7D8356008EDDCF /* ORun.swift in Sources */,
+				5FF472141C8938C2007C098B /* CircleProgressInner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
